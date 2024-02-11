@@ -1,0 +1,141 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}    //забирає хрестик в інт експлор
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+.conteiner{
+     width: 1170px;
+     margin: 0 auto;
+}
+body{
+     font-family: 'Anton', sans-serif;
+}
+.header{
+     background: url(../img/header-bg.jpg) no-repeat center top / cover;
+     height: 900px;
+}
+.nav{
+     display: flex;
+     align-items: center;
+     padding: 57px 0 0 0;
+}
+.nav__img{
+     margin: 0 69px 0 0;
+}
+.nav__menu{
+     font-size: 14px;
+     display: flex;
+}
+.nav__menu li{
+     margin: 0 40px 0 0;
+}
+.nav__menu li a{
+     color: white;
+     letter-spacing: 0.02em;
+}
+.nav__menu li:hover{
+     text-decoration: overline;
+     color: blue;
+}
+.nav__tel{
+     font-size: 16px;
+     margin: 0 0 0 auto;
+     color: white;
+     letter-spacing: 0.02em;
+}
+.nav__tel:hover{
+     color: blue;
+}
+.offer{
+     margin: 210px 0 0 0;
+}
+.offer__firsttext{
+     font-size: 30px;
+     color: white;
+     text-transform: uppercase;
+     margin: 0 0 20px 0;
+     letter-spacing: 0.02em;
+}
+.offer__secondtext{
+     font-size: 100px;
+     color: white;
+     text-transform: uppercase;
+     margin: 0 0 40px 0;
+     letter-spacing: 0.02em;
+}
+.offer__button{
+     display: block;
+     color: white;
+     border: 1px solid white;
+     width: 238px;
+     text-align: center;
+     padding: 20px 0px;
+     letter-spacing: 0.1em;
+     font-size: 17px;
+}
+.offer__button:hover{
+     background: rgba(0, 0, 0, 0.526);
+     box-shadow: 1px 1px 10px black;
+}
+.about__title{
+     font-size: 50px;
+     text-transform: uppercase;
+     margin: 113px 0 58px 0;
+}
+.about__characteristics{
+     display: flex;
+     margin: 0 0 67px 0;
+}
+.about__characteristics h2{
+     font-size: 25px;
+     text-transform: uppercase;
+     margin: 0 0 19px 0;
+}
+.about__characteristics p{
+     font-size: 16px;
+     font-family: 'Open Sans', sans-serif;
+     word-spacing: 0.04em;
+     line-height: 26.03px;
+}
+.characteristic__text:nth-child(1){
+     margin: 0 36px 0 0;
+}
+.characteristic__text{
+     width: 564px;
+}
+.about__collage img{ 
+     margin: 0 17px 0 0;
+}
+.footer{
+     font-family: 'Open Sans', sans-serif;
+     margin: 114px 0 0 0;
+     padding: 0 0 80px 0;
+}
+.footer__text{
+     font-size: 14px;
+     display: flex;
+}
+.footer__text p:nth-child(1){
+     margin: 0 55px 0 0;
+}
+
+.ball{
+     width: 50px;
+     height: 50px;
+     position: fixed;
+     bottom: 10px;
+     right: 10px;
+}
